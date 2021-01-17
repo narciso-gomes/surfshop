@@ -1,4 +1,5 @@
 import { Component, OnInit, ViewChild } from '@angular/core';
+import { Keyboard } from '@ionic-native/keyboard/ngx';
 import { IonSlides } from '@ionic/angular';
 
 @Component({
@@ -12,9 +13,10 @@ export class LoginPage implements OnInit {
   public wavesPosition: number = 0;
   public wavesDiference: number = 100;
 
-  constructor() { }
+  constructor(public keyboard: Keyboard) { }
 
   ngOnInit() {
+
   }
 
   segmentChanged($event) {

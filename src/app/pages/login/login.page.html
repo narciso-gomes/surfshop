@@ -1,5 +1,5 @@
 <ion-content class="swiper-no-swiping">
-  <div class="container top">
+  <div class="container top" [hidden]="keyboard.isVisible">
     <img src="/assets/images/logo.png" alt="">
 
     <!-- Default Segment -->
@@ -64,7 +64,7 @@
 
     </div>
 
-    <div class="container bottom ion-text-center">
+    <div class="container bottom ion-text-center" [hidden]="keyboard.isVisible">
       <span>O aplicativo que foi feito para o gerenciamento dos produtos da sua loja de surf!</span>
     </div>
 
