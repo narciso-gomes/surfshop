@@ -1,0 +1,11 @@
+{
+  "targets": {
+    "surfshop-6f764": {
+      "hosting": {
+        "app": [
+          "surfshop-6f764"
+        ]
+      }
+    }
+  }
+}
